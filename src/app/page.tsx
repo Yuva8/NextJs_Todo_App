@@ -13,7 +13,7 @@ async function fetchTasks() {
 const Page = () => {
   const setTasks = useTodoStore((state) => state.setTasks);
   const [tasks, setFetchedTasks] = useState([]);
-
+  console.log(tasks, "task");
   useEffect(() => {
     const loadTasks = async () => {
       const fetchedTasks = await fetchTasks();

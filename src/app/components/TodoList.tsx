@@ -1,6 +1,6 @@
 "use client";
 
-import { Task, useTodoStore } from "../store/useTodoStore";
+import { useTodoStore } from "../store/useTodoStore";
 import TodoItem from "./TodoItem";
 import styles from "../styles/TodoList.module.css";
 
